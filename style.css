@@ -8,6 +8,7 @@
 
 :root {
   --main-color: #fba24f;
+  --grey: rgb(95, 94, 94);
 }
 
 .w-50 {
@@ -24,7 +25,7 @@
 
 h1 {
   font-size: 50px;
-  color: rgb(95, 94, 94);
+  color: var(--grey);
   margin-bottom: 2rem;
 }
 h3 {
@@ -107,4 +108,26 @@ h3 {
 }
 .cards div img {
   width: 100%;
+}
+
+.follower {
+  display: flex;
+  margin: 0 auto;
+  border: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  width: 80%;
+  padding: 3rem;
+  border-radius: 30px;
+  margin-bottom: 10rem;
+}
+.social {
+  margin: 0 auto;
+}
+
+.social h1 {
+  margin-bottom: 0.5rem;
+  color: black;
+}
+.mt-5-rem {
+  margin-left: 8rem;
 }
