@@ -22,6 +22,9 @@
 .orange {
   color: var(--main-color);
 }
+.grey {
+  color: var(--grey);
+}
 
 h1 {
   font-size: 50px;
@@ -50,7 +53,7 @@ h3 {
 }
 
 .btn {
-  padding: 10px 30px;
+  padding: 15px 30px;
   background-image: linear-gradient(to right, #fba24f, #ff1e1e);
   border-radius: 25px;
   color: white;
@@ -130,4 +133,21 @@ h3 {
 }
 .mt-5-rem {
   margin-left: 8rem;
+}
+
+footer {
+  background-color: black;
+  padding: 3rem;
+  text-align: center;
+}
+
+footer h2 {
+  color: var(--grey);
+  margin-bottom: 2rem;
+  font-size: 35px;
+}
+
+footer p {
+  color: white;
+  font-weight: 700;
 }
